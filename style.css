@@ -1,0 +1,66 @@
+
+h2{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(235, 215, 134);
+}
+.glow{
+        
+        font-size: 30px;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+        font-family: Algerian;
+        font-weight: bolder;
+      }
+      
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #cfe600, 0 0 40px #6a6b1a, 0 0 50px #98993f, 0 0 60px #889928, 0 0 70px #8a8213;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #f3b50a, 0 0 40px #ccb00f, 0 0 50px #c7c41d, 0 0 60px #d4b13ef1, 0 0 70px #d4973c, 0 0 80px #e4b34a;
+        }
+      }
+
+      ul{
+          list-style-type: none;
+          display: inline-block;
+         
+          margin-bottom: 0px;
+         
+         }
+      li{
+          color: black;
+          flex-direction: row;
+          flex-wrap: wrap;
+          text-decoration: none;
+          border-radius: 10px;
+      }
+      .news{
+        background-color:rgb(15, 15, 13);
+        color: white;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
+        margin: 10px;
+      }
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+a:hover{
+    text-decoration: underline;
+    color: yellow;
+   
+}
+.latest-event{
+  color: #d3d3ce;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="black">
+    <h2>BLOOD DONATION DRIVE FORM</h2>
+<div>
+    <form action="connect.php" method="POST" id="form1" enctype="multipart/form-data">
+        <table>
+         <tr>
+             <td>First Name:</td>
+        <td><input type="text" id="fname" name="fname" placeholder="first name" ><br></td> 
+     </tr>
+        <tr><td>Last name:</td>
+         <td> <input type="text" id="lname" name="lname" placeholder="last name" ><br></td>
+     </tr>
+     <tr> <td>Contact Number:</td>
+        
+         <td> 
+             
+             <input type="text" id="phoneNo" name="phoneNo" placeholder="contact number"><br></td>
+      </tr>
+      <tr> <td>Gender:</td>
+         <td><input type="radio" id="male" name="gender" value="male">Male
+         <input type="radio" id="female" name="gender" value="female">Female
+          <input type="radio" id="other" name="gender" value="other">Other</td>
+      </tr>
+         
+      <tr> <td>Blood Group:</td>
+         <td> <input type="text" id="bloodg" name="bloodg" placeholder="eg:o+ve"><br></td>
+       </tr>
+       <tr> <td>Weight:</td>
+         <td><input type="text" id="weight" name="weight" placeholder="eg:50"><br></td>
+      </tr>
+      <tr> <td>Height:</td>
+         <td><input type="text" id="height" name="height" placeholder="eg:5.2"><br></td>
+      </tr>
+      <tr><td> <button type="submit" form="form1" value="Submit">Submit</button></td></tr>
+     </table>
+       </form>
+    </div>
+<style>
+    body{
+        text-align: center;
+        color: violet;
+        font-weight: bolder;
+    }
+   
+    button{
+        height: 40px;
+        width: 100px;
+        color:red;
+        font-weight: 700px;
+        position: relative;
+       left: 170px;
+    }
+    input{
+        padding: 10px;
+        margin: 10px;
+    }
+    div{
+        height: 500px;
+        width: 500px;
+        color: aliceblue;
+        margin: auto;
+    }
+
+</style>
+    
+</body>
+</html>
